@@ -1,0 +1,6 @@
+#Housing Data Analysis
+
+Using pandas to analyze data on demographics and housing for New York City. To run, simply run `python3 main.py` to generate a bar plot of poverty rates and per-capita subsidized private units by community district. The idea is that this could be used to help identify community districts with high poverty rates and relatively few subsidized private units per capita. Notably, the subsidized units in this data are privately owned, and don't include public housing. So this data does not paint a complete picture of where housing affordability concerns are most acute. Further work should look further into other types of affordable housing to better identify community districts with insufficient amounts of subsidized housing.
+
+##Data Sources
+[Population data](https://data.cityofnewyork.us/City-Government/New-York-City-Population-By-Community-Districts/xi7c-iiu2/data) and [social indicators data](https://data.cityofnewyork.us/Social-Services/Social-Indicators-Report-Data-By-Community-Distric/nvqd-aa32) come from [NYC Open Data](https://data.cityofnewyork.us/). Data on privately-owned subsidized housing comes from the [Subsidized Housing Information Project](http://datasearch.furmancenter.org/) from the Furman Center at NYU.
